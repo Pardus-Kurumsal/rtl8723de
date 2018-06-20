@@ -1,0 +1,14 @@
+Source: rtl8723de
+Section: kernel
+Priority: optional
+Maintainer: Cihangir Akturk <cihangir.akturk@tubitak.gov.tr>
+Build-Depends: debhelper (>= 9), dkms
+Standards-Version: 3.9.8
+Homepage: https://github.com/smlinux/rtl8723de
+#Vcs-Git: https://anonscm.debian.org/collab-maint/rtl8723de.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/rtl8723de.git
+
+Package: rtl8723de
+Architecture: any
+Depends: ${misc:Depends}
+Description: Realtek rtl8753de wifi driver
