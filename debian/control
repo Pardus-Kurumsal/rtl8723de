@@ -12,3 +12,5 @@ Package: rtl8723de
 Architecture: any
 Depends: ${misc:Depends}
 Description: Realtek rtl8753de wifi driver
+ Realtek rtl8753 is rtl wireless chipset driver to support the
+ various realtek wifi chipsets.
